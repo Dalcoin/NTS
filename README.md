@@ -1,6 +1,9 @@
 # NTS
 Self-contained numeric solutions to the TOV equations requiring only an EOS input
 
+**As run from GNU bash shell**
+**REDHAT LINUX-GNU (x86-64) v 4.1.2(1)**
+**Compiled using Absoft 64-bit Pro Fortran 15.0.0 compiler**
 
 Modifed from 'nts_read_me.txt':
 
