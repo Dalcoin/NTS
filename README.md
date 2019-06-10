@@ -1,6 +1,11 @@
 # NTS
 Self-contained numeric solutions to the TOV equations requiring only an EOS input
 
+*The radius of the canonical-mass neutron star and chiral effective field theory*
+
+**F. Sammarruca and R. Millerson, J. Phys. G 46, 024001 (2019)**
+
+
 **As run from GNU bash shell**
 **REDHAT LINUX-GNU (x86-64) v 4.1.2(1)**
 **Compiled using Absoft 64-bit Pro Fortran 15.0.0 compiler**
