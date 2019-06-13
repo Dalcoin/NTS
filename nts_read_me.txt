@@ -1,5 +1,5 @@
 
-      Documentation 2.0.0
+      Documentation 2.5.0
 
       Previous versions:
  
@@ -16,20 +16,22 @@
       1.5.5: Adding 1.4 SM values to 1.5.0
 
       1.5.5.m: Enhanced 1.4 SM and MM routines with ECC.
+      
+      2.0.0: Adding tabled values for various polytropic expansions, complete with 1.4 SM and MM SM data, and causality limit.
 
       Update:
-      
-      2.0.0: Adding tabled values for various polytropic expansions, complete with 1.4 SM and MM SM data, and causality limit. [Current Version]
+     
+      2.5.0: Added speed of sound (SOS) at central densities for both Maximum Mass and 1.4 Mass Neutron Star tables. [Current Version]
 
       Upcomming: 
 
-      2.0.5: Cleaning option for single gamma match.  
+      2.5.5: Cleaning option for single gamma match.  
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------|
                                                                                                                                                       |
       Simple Directions:                                                                                                                              |  
                                                                                                                                                       |
-      1.) Inport EOS that is exactly 97 values long with Energy density, Pressure, and Density in that order. Put in file titled 'eosin.don'          |
+      1.) Inport EOS that is exactly 97 values long with Energy density, Pressure,and Density; in that order. Put in file titled 'eosin.don'          |
                                                                                                                                                       | 
       2.) Set values in file titled 'in.don' Default values should be '3 false false 1'                                                               |
                                                                                                                                                       |
@@ -48,29 +50,29 @@
 ------------------------------------------------------------------------------------------------------------------------------------------------------|       
       Input Documentation:
 
-      Parameters in 'paramnlo.don'. -> 'paramnlo.don' has been renamed 'parameos.don' in version 1.5.5.
+      Parameters in 'paramnlo.don' has been renamed 'parameos.don' in version 1.5.5.
 
       Parameter defaults are below.
 
       Gamma values in 'gamval.don'.
 
-      Default values are set to double matching seven by seven
+      Default values are set to double matching seven by seven 
       polytropic expansion starting with a adiabatic parameter
       of 1.5 and running to 4.5 with increments of 0.5.
 
-      Number density matches at 0.33 and again at 0.46 using
-      from the data found from asymmetric isospin EOS derived using
-      chiral nuclear force models. 
+      Number density matches at 0.33 fm^{-3} and again at 0.46 using
+      values from the data found from chiral asymmetric isospin EOS. 
+      The Chiral EoS was derived using chiral nuclear force calculations. 
 
-      The 'eosin.don' file contains the EOS. N2LO and N3LO have been 
-      verified with a lambda parameter of 500 MeV. 
+      The 'eosin.don' file contains the EOS. N2LO, N3LO and N4LO have been 
+      verified with a lambda parameter of both 450 and 500 MeV. 
 
 
       Program Directions:
 
       1.) Set values in 'parameos.don'. (These are the EOS parameters)
 
-      Parameter list reads as below: (Note: in 1.5.5 ncontrol is no longer an EOS parameter)
+      Parameter list reads as below: (Note: as of verions 1.5.5 ncontrol is no longer an EOS parameter)
 
       ngval, m, n, rho_i, rho_f, rho_fin, match
 
