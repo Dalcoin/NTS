@@ -10,6 +10,12 @@ Self-contained numeric solutions to the TOV equations requiring only an EOS inpu
 **REDHAT LINUX-GNU (x86-64) v 4.1.2(1)**
 **Compiled using Absoft 64-bit Pro Fortran 15.0.0 compiler**
 
+Things Left to do:
+
+1) Modularize the code; the main program is contained inside giant do loops.
+2) Add subroutines for better speed of sound calculations
+3) Add a python script for user controlled runs
+
 Modifed from 'nts_read_me.txt':
 
 **Documentation 2.0.0:**
