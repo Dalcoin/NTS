@@ -1,5 +1,5 @@
 # NTS
-Self-contained numeric solutions to the TOV equations requiring only an EOS input
+Self-contained numeric solutions to the TOV equations requiring only a nuclear EoS input
 
 *The radius of the canonical-mass neutron star and chiral effective field theory*
 
